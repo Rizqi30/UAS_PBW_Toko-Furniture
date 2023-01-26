@@ -1,0 +1,116 @@
+{
+  "product": [
+    {
+      "kategori": "Bedroom Set",
+      "nama": "Bedroom Set 1",
+      "deskripsi": "Modern dan Minimalis",
+      "harga": "10000000",
+      "gambar": "kamar1.jpg"
+    },
+    {
+      "kategori": "Bedroom Set",
+      "nama": "Bedroom Set 2",
+      "deskripsi": "Modern dan Keren",
+      "harga": "15000000",
+      "gambar": "kamar2.jpg"
+    },
+    {
+      "kategori": "Bedroom Set",
+      "nama": "Bedroom Set 3",
+      "deskripsi": "Modern dan Mewah",
+      "harga": "20000000",
+      "gambar": "kamar3.jpg"
+    },
+    {
+      "kategori": "Bedroom Set",
+      "nama": "Bedroom Set 4",
+      "deskripsi": "Minimalis dan Tegas",
+      "harga": "14000000",
+      "gambar": "kamar5.jpeg"
+    },
+    {
+      "kategori": "Kitchen Set",
+      "nama": "Kitchen Set 1",
+      "deskripsi": "Mewah dan Elegan",
+      "harga": "25000000",
+      "gambar": "kitchen set 1.jpg"
+    },
+    {
+      "kategori": "Kitchen Set",
+      "nama": "Kitchen Set 2",
+      "deskripsi": "Simple dan Minimalis",
+      "harga": "17000000",
+      "gambar": "kitchen set 2.jpg"
+    },
+    {
+      "kategori": "Kitchen Set",
+      "nama": "Kitchen Set 3",
+      "deskripsi": "Mewah dan Elegan",
+      "harga": "25000000",
+      "gambar": "kitchen set 3.jpg"
+    },
+    {
+      "kategori": "Kitchen Set",
+      "nama": "Kitchen Set 4",
+      "deskripsi": "Mewah dan Instagramable",
+      "harga": "20000000",
+      "gambar": "kitchen set 4.jpg"
+    },
+    {
+      "kategori": "Livingroom Set",
+      "nama": "Livingroom Set 1",
+      "deskripsi": "Modern dan Mewah",
+      "harga": "15000000",
+      "gambar": "living1.jpg"
+    },
+    {
+      "kategori": "Livingroom Set",
+      "nama": "Livingroom Set 2",
+      "deskripsi": "Keren dan Nyaman",
+      "harga": "17000000",
+      "gambar": "living2.png"
+    },
+    {
+      "kategori": "Livingroom Set",
+      "nama": "Livingroom Set 3",
+      "deskripsi": "Minimalis dan Modern",
+      "harga": "13000000",
+      "gambar": "living3.jpg"
+    },
+    {
+      "kategori": "Livingroom Set",
+      "nama": "Livingroom Set 4",
+      "deskripsi": "Elegan dan Simple",
+      "harga": "21000000",
+      "gambar": "living4.jpg"
+    },
+    {
+      "kategori": "Bathroom Set",
+      "nama": "Bathroom Set 1",
+      "deskripsi": "Keren dan Minimalis",
+      "harga": "5000000",
+      "gambar": "bathroomset2.webp"
+    },
+    {
+      "kategori": "Bathroom Set",
+      "nama": "Bathroom Set 2",
+      "deskripsi": "Simple dan Minimalis",
+      "harga": "8000000",
+      "gambar": "bathroomset3.jpg"
+    },
+    {
+      "kategori": "Bathroom Set",
+      "nama": "Bathroom Set 3",
+      "deskripsi": "Mewah dan Elegan",
+      "harga": "12000000",
+      "gambar": "bathroomset4.jpg"
+    },
+    {
+      "kategori": "Bathroom Set",
+      "nama": "Bathroom Set 4",
+      "deskripsi": "Futuristik dan Klasik",
+      "harga": "10000000",
+      "gambar": "bathroomset5.jpg"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+/* body */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #e0e4cc;
+}
+
+/* Navbar */
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  font-family: "Viga", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Viga", sans-serif;
+  font-size: 20px;
+}
+
+.jerom {
+  margin-left: 10px;
+}
+
+/* Utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(Background/furniture.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 667px;
+  padding-top: 200px;
+  position: relative;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron .display-4 {
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.jumbotron .display-4 .typing {
+  font-weight: 800;
+}
+
+.jumbotron .display-4 p {
+  font-size: 38px;
+}
+
+.jumbotron .display-4,
+.jumbotron .display-4 p,
+.jumbotron .lead {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: 0s;
+}
+
+/* Info Panel */
+.info-panel {
+  width: 80%;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  text-align: center;
+  margin-top: -126px;
+  position: relative;
+  background-color: white;
+  z-index: 1;
+  padding: 20px;
+}
+
+.info-panel .characteristic .gambar {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Product */
+.col-lg-4 {
+  padding-bottom: 20px;
+}
+
+.card img {
+  width: 200px;
+  padding: 5px;
+}
+
+.btnKategori {
+  border: 1px solid black;
+  background: none;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btnKategori.btnActive {
+  background-color: black;
+  color: white;
+}
+
+.btnKategori:hover {
+  background-color: black;
+  color: white;
+}
+
+/* About */
+.textAbout {
+  margin-top: 10px;
+}
+
+.h4 {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 1s;
+}
+
+.About.pMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.alamat {
+  font-size: 15px;
+  margin: 30px;
+  text-align: center;
+}
+/* Modal */
+.buttonKurang,
+.buttonTambah {
+  width: 40px;
+  margin: 10px;
+  border: 1px solid black;
+  font-weight: 500;
+  padding: 0;
+}
+
+.modal-footer h2 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* Music */
+.musik {
+  width: 200px;
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar {
+    padding: 20px;
+  }
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    font-weight: 500;
+  }
+  .nav-link {
+    margin-right: 20px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-bottom: 3px solid blue;
+    border-radius: 5px;
+    margin-bottom: -8px;
+  }
+
+  /* Utility */
+  .tombol {
+    border-radius: 40px;
+  }
+
+  /* Jumbotron */
+  .jumbotron {
+    margin-top: -80px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 50px;
+  }
+
+  /* Info Panel */
+  .info-panel {
+    width: 80%;
+    padding: 40px;
+    margin-top: -110px;
+  }
+}
